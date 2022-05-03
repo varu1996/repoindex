@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+*{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    background-image: url(../imagenes/maderanegra.jpg);
+    background-size: 2500px 4000px;
+    background-repeat: no-repeat;
+    text-align: justify;
+}
+
+
+/*  ***HEADER***  */
+
+
+header{
+    color: #fff;
+}
+
+nav{
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+    font-size: large;
+    cursor: pointer;
+    padding: 30px 50px 0 0;
+    position: absolute;
+    margin-left: 90.4rem;
+}
+
+nav > a{
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+
+/*  ***MAIN***  */
+
+
+main p, h3, li{
+    font-family: 'Poppins', sans-serif;
+}
+
+.ul-list, .ol-list{
+    width: 50%;
+    position: absolute;
+    display: block;
+}
+
+.ol-list{
+    margin-top: 16rem;
+}
+
+aside{
+    width: 50%;
+    margin-left: 70rem;
+}
+
+h3{
+    color: #ff0000;
+}
+
+h1{
+    font-size: 300%;
+    display: inline-block;
+    margin-left: 9rem;
+}
+
+h2{
+    font-size: 215%;
+    margin-left: 11rem;
+}
+
+h1, h2{
+    color: #fff;
+    text-decoration: underline;
+}
+
+p{
+    color: #fff;
+    font-size: large;
+    text-align: left;
+}
+
+.mapa-h3{
+    position: absolute;
+    margin-top: 37rem;
+}
+
+.mapa{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    margin-top: 41rem;
+    margin-left: 4rem;
+}
+
+img{
+    height: 300px;
+    width: 600px;
+    margin-bottom: 10rem;
+}
+
+.videotut{
+    margin-bottom: 5rem;
+}
+
+li{
+    color: #fff;
+}
+
+.icono-wsp{
+    position: fixed;
+    top: 80%;
+    right: 2%;
+    width: 70px;
+    height: 70px;
+}
+
+
+/*  ***FOOTER***  */
+
+
+footer{
+    font-family: 'Poppins', sans-serif;
+    background: hsla(0, 0%, 45%, 0.326);
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ff0000;
+}
+
+.contenido-footer{
+    text-align: center;
+}
+
+.contenido-footer h4{
+    color: #fff;
+    border-bottom: 3px solid #ff0000;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.contenido-footer p{
+    color: #fff;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #fff;
+}
+
+.icono-ig{
+    width: 70px;
+    height: 70px;
+    margin-top: 50px;
+}
+
+.p-footer{
+    margin-top: 65px;
+}
