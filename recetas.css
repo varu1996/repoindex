@@ -48,7 +48,7 @@ main p, h3, li{
 
 section{
     background: hsla(0, 0%, 45%, 0.723);
-    border: solid hsla(0, 0%, 45%, 0.326);
+    border: solid #fff;
     border-radius: 10px;
     margin-top: 4rem;
     margin-left: 5rem;
@@ -61,7 +61,18 @@ h3{
 }
 
 a{
+    font-family: 'Poppins', sans-serif;
     color: #fff;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.a-hov:hover, .a-hov:focus {
+    background-size: 100% 2px;
 }
 
 ul{

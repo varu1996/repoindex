@@ -26,8 +26,6 @@ nav{
     font-size: large;
     cursor: pointer;
     padding: 30px 50px 0 0;
-    position: absolute;
-    margin-left: 90.4rem;
 }
 
 nav > a{
@@ -45,121 +43,50 @@ nav > a:hover{
 /*  ***MAIN***  */
 
 
-main p, h3, li{
-    font-family: 'Poppins', sans-serif;
-}
-
-.ul-list, .ol-list{   /*No puedo poner los ítems de puntos y numeros respectivamente*/
-    width: 50%;
-    position: absolute;
-    display: block;
-}
-
-.ol-list{
-    margin-top: 16rem;
-}
-
-aside{
-    width: 50%;
-    margin-left: 70rem;
+form{
+    font-family: 'Poppins', sans-serif;  
+    background: hsla(0, 0%, 45%, 0.723);
+    border: solid #fff;
+    border-radius: 10px; 
+    color: #fff;
+    width: 700px;
+    height: 700px;
+    margin-top: 6rem;
+    margin-left: 6rem;
+    
 }
 
 h3{
-    color: #ff0000;
-}
-
-h1{
-    font-size: 300%;
-    display: inline-block;
-    margin-left: 9rem;
-}
-
-h2{
-    font-size: 215%;
-    margin-left: 11rem;
-}
-
-h1, h2{
-    color: #fff;
+    margin-left: 30px;
     text-decoration: underline;
 }
 
-p{
-    color: #fff;
-    font-size: large;
-    text-align: left;
+.clases3{
+    margin-top: 25px;
+    margin-left: 30px;
 }
 
-.recet2{   /*No puedo por los ítems de puntos*/
-    position: absolute;
-    background: hsla(0, 0%, 45%, 0.723);
-    border: solid #fff;
-    border-radius: 10px;
-    width: 600px;
+.est-inp{
+    margin-left: 5px;
+    width: 300px;
 }
 
-.rec-2-h3{
-    color: #fff;
-    margin-left: 15px;
+textarea{
+    margin-left: 5px;
+    max-width: 540px;
+    max-height: 180px;
+    min-width: 380px;
+    min-height: 40px;
 }
 
-a{
-    color: #fff;
-}
-
-.a-hov{
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    background-image: linear-gradient(currentColor, currentColor);
-    background-position: 0% 100%;
-    background-repeat: no-repeat;
-    background-size: 0% 2px;
-    transition: background-size .3s;
-}
-
-a:hover, a:focus {
-    background-size: 100% 2px;
-}
-
-.mapa-h3{
-    position: absolute;
-    margin-top: 37rem;
-}
-
-.mapa{
-    position: absolute;
-    width: 350px;
-    height: 250px;
-    margin-top: 41rem;
-    margin-left: 4rem;
-}
-
-#img-hov{
-    width: 350px;
-    height: 300px;
-    overflow: hidden;
+.btn-env{
+    float: right;
+    margin-right: 80px;
+    margin-top: 30px;
+    width: 5rem;
+    height: 2rem;
     cursor: pointer;
-    box-shadow: 1px 10px 25px rgba(0,0,0,0.5);
-}
-
-#img-hov img{
-    width: 500px;
-    height: 100%;
-    transition: 2s;
-    filter: brightness(80%);
-}
-
-#img-hov img:hover{
-    transform: translateX(-30%);
-    filter: brightness(100%);
-}
-
-.videotut{
-    margin-bottom: 5rem;
-}
-
-li{
-    color: #fff;
+    position: sticky;
 }
 
 .icono-wsp{
@@ -180,7 +107,7 @@ footer{
     padding: 60px 0 30px 0;
     margin: auto;
     overflow: hidden;
-    margin-top: 225px;
+    margin-top: 37.8rem;
 }
 
 .contenedor-footer{
