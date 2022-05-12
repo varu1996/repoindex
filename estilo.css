@@ -50,7 +50,7 @@ main p, h3, li{
 }
 
 .ul-list, .ol-list{   /*No puedo poner los ítems de puntos y numeros respectivamente*/
-    width: 50%;
+    width: 50rem;
     position: absolute;
     display: block;
 }
@@ -61,7 +61,7 @@ main p, h3, li{
 
 aside{
     width: 50%;
-    margin-left: 70rem;
+    margin-left: 1120px;
 }
 
 h3{
@@ -123,13 +123,13 @@ a:hover, a:focus {
 
 .mapa-h3{
     position: absolute;
-    margin-top: 37rem;
+    margin-top: 590px;
 }
 
 .mapa{
     position: absolute;
-    width: 350px;
-    height: 250px;
+    width: 19vw;
+    height: 30vh;
     margin-top: 41rem;
     margin-left: 4rem;
 }
@@ -143,8 +143,8 @@ a:hover, a:focus {
 }
 
 #img-hov img{
-    width: 500px;
-    height: 100%;
+    width: 31vw;
+    height: 32vh;
     transition: 2s;
     filter: brightness(80%);
 }
@@ -155,7 +155,7 @@ a:hover, a:focus {
 }
 
 .videotut{
-    margin-bottom: 5rem;
+    margin-bottom: 80px;
 }
 
 li{
