@@ -2,99 +2,46 @@
 
 *{
     box-sizing: border-box;
-    overflow-x: hidden;
 }
 
 body{
-    background-image: url(../imagenes/maderanegra.jpg);
-    background-size: 2500px 4000px;
-    background-repeat: no-repeat;
-    text-align: justify;
-}
-
-
-/*  ***HEADER***  */
-
-
-header{
-    color: #fff;
-}
-
-nav{
-    font-family: 'Poppins', sans-serif;
-    text-align: right;
-    font-size: large;
-    cursor: pointer;
-    padding: 30px 50px 0 0;
-}
-
-nav > a{
-    color: #fff;
-    font-weight: 300;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-nav > a:hover{
-    text-decoration: underline;
+    background-color: #e7bfbf;
 }
 
 
 /*  ***MAIN***  */
 
 
-form{
-    font-family: 'Poppins', sans-serif;  
-    background: hsla(0, 0%, 45%, 0.723);
-    border: solid #fff;
-    border-radius: 10px; 
-    color: #fff;
-    width: 37vw;
-    height: 75vh;
-    margin-top: 6rem;
-    margin-left: 6rem;
-    
+main{
+    display: flex;
+    flex-wrap: wrap;
 }
 
-h3{
-    margin-left: 30px;
+.h2-form{
     text-decoration: underline;
 }
 
-.clases3{
-    margin-top: 25px;
-    margin-left: 30px;
-}
-
-.est-inp{
-    margin-left: 5px;
-    width: 300px;
+form{
+    width: 45%;
+    margin-top: 30px;
+    margin-left: 5%;
 }
 
 textarea{
-    margin-left: 5px;
-    max-width: 540px;
-    max-height: 180px;
-    min-width: 380px;
-    min-height: 40px;
+    min-height: 10vh;
+    max-height: 18vh;
 }
 
-.btn-env{
-    float: right;
-    margin-right: 80px;
+.botones{
     margin-top: 30px;
-    width: 5rem;
-    height: 2rem;
-    cursor: pointer;
-    position: sticky;
 }
 
 .icono-wsp{
     position: fixed;
     top: 80%;
     right: 2%;
-    width: 70px;
-    height: 70px;
+    width: 3.7vw;
+    height: 7.5vh;
 }
 
 
@@ -103,48 +50,51 @@ textarea{
 
 footer{
     font-family: 'Poppins', sans-serif;
-    background: hsla(0, 0%, 45%, 0.326);
+    background-color: #cf9393;
+    margin-top: 150px;
     padding: 60px 0 30px 0;
-    margin: auto;
-    overflow: hidden;
-    margin-top: 37.8rem;
+    /* overflow: hidden; */
 }
 
 .contenedor-footer{
     display: flex;
     width: 90%;
-    justify-content: space-evenly;
-    margin: auto;
-    padding-bottom: 50px;
+    margin-right: 5%;
+    margin-left: 5%;
+    justify-content: space-between;
+    padding-bottom: 40px;
     border-bottom: 1px solid #ff0000;
 }
 
 .contenido-footer{
+    width: 26.6%;
     text-align: center;
 }
 
-.contenido-footer h4{
-    color: #fff;
+.contenido-footer h2{
+    color: #000;
     border-bottom: 3px solid #ff0000;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
 
 .contenido-footer p{
-    color: #fff;
+    font-size: large;
+    margin-top: 50px;
+    color: #000;
 }
 
 .titulo-final{
     text-align: center;
     font-size: 24px;
     margin: 20px 0 0 0;
-    color: #fff;
+    color: #000;
 }
 
 .icono-ig{
     width: 70px;
     height: 70px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .p-footer{

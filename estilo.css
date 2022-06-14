@@ -2,114 +2,118 @@
 
 *{
     box-sizing: border-box;
-    overflow-x: hidden;
 }
 
 body{
-    background-image: url(../imagenes/maderanegra.jpg);
-    background-size: 2500px 4000px;
-    background-repeat: no-repeat;
-    text-align: justify;
-}
-
-
-/*  ***HEADER***  */
-
-
-header{
-    color: #fff;
-}
-
-nav{
-    font-family: 'Poppins', sans-serif;
-    text-align: right;
-    font-size: large;
-    cursor: pointer;
-    padding: 30px 50px 0 0;
-    position: absolute;
-    margin-left: 90.4rem;
-}
-
-nav > a{
-    color: #fff;
-    font-weight: 300;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-nav > a:hover{
-    text-decoration: underline;
+    background-color: #e7bfbf;
 }
 
 
 /*  ***MAIN***  */
 
 
-main p, h3, li{
-    font-family: 'Poppins', sans-serif;
+main{
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.ul-list, .ol-list{   /*No puedo poner los ítems de puntos y numeros respectivamente*/
-    width: 50rem;
-    position: absolute;
-    display: block;
+.jumbotron{
+    width: 100%;
 }
 
-.ol-list{
-    margin-top: 16rem;
+section{
+    width: 45%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 2%;
+    margin-right: 3%;
 }
 
 aside{
-    width: 50%;
-    margin-left: 1120px;
+    width: 45%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 2%;
+    margin-left: 3%;
 }
 
-h3{
-    color: #ff0000;
+.mapa{
+    width: 40vw;
+    height: 35vh;
 }
 
-h1{
-    font-size: 300%;
-    display: inline-block;
-    margin-left: 9rem;
+.videotut{
+    width: 40vw;
+    height: 35vh;
 }
 
-h2{
-    font-size: 215%;
-    margin-left: 11rem;
+.icono-wsp{
+    position: fixed;
+    top: 80%;
+    right: 2%;
+    width: 3.7vw;
+    height: 7.5vh;
 }
 
-h1, h2{
-    color: #fff;
-    text-decoration: underline;
-}
 
-p{
-    color: #fff;
-    font-size: large;
-    text-align: left;
-}
+/*  ***FOOTER***  */
 
-.recet2{   /*No puedo por los ítems de puntos*/
-    position: absolute;
-    background: hsla(0, 0%, 45%, 0.723);
-    border: solid #fff;
-    border-radius: 10px;
-    width: 600px;
-}
 
-.rec-2-h3{
-    color: #fff;
-    margin-left: 15px;
-}
-
-a{
-    color: #fff;
-}
-
-.a-hov{
+footer{
     font-family: 'Poppins', sans-serif;
-    text-decoration: none;
+    background-color: #cf9393;
+    margin-top: 150px;
+    padding: 60px 0 30px 0;
+    /* overflow: hidden; */
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ff0000;
+}
+
+.contenido-footer{
+    width: 26.6%;
+    text-align: center;
+}
+
+.contenido-footer h2{
+    color: #000;
+    border-bottom: 3px solid #ff0000;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.contenido-footer p{
+    font-size: large;
+    margin-top: 50px;
+    color: #000;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #000;
+}
+
+.icono-ig{
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+}
+
+.p-footer{
+    margin-top: 65px;
+}
+
+/* .a-hov{
+    font-family: 'Poppins', sans-serif;
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
     background-repeat: no-repeat;
@@ -119,107 +123,17 @@ a{
 
 a:hover, a:focus {
     background-size: 100% 2px;
+} */
+
+@media(min-width: 575px){
+    
 }
 
-.mapa-h3{
-    position: absolute;
-    margin-top: 590px;
+@media(min-width: 991px){
+    
 }
 
-.mapa{
-    position: absolute;
-    width: 19vw;
-    height: 30vh;
-    margin-top: 41rem;
-    margin-left: 4rem;
+@media(min-width: 1199px){
+    
 }
 
-#img-hov{
-    width: 350px;
-    height: 300px;
-    overflow: hidden;
-    cursor: pointer;
-    box-shadow: 1px 10px 25px rgba(0,0,0,0.5);
-}
-
-#img-hov img{
-    width: 31vw;
-    height: 32vh;
-    transition: 2s;
-    filter: brightness(80%);
-}
-
-#img-hov img:hover{
-    transform: translateX(-30%);
-    filter: brightness(100%);
-}
-
-.videotut{
-    margin-bottom: 80px;
-}
-
-li{
-    color: #fff;
-}
-
-.icono-wsp{
-    position: fixed;
-    top: 80%;
-    right: 2%;
-    width: 70px;
-    height: 70px;
-}
-
-
-/*  ***FOOTER***  */
-
-
-footer{
-    font-family: 'Poppins', sans-serif;
-    background: hsla(0, 0%, 45%, 0.326);
-    padding: 60px 0 30px 0;
-    margin: auto;
-    overflow: hidden;
-    margin-top: 225px;
-}
-
-.contenedor-footer{
-    display: flex;
-    width: 90%;
-    justify-content: space-evenly;
-    margin: auto;
-    padding-bottom: 50px;
-    border-bottom: 1px solid #ff0000;
-}
-
-.contenido-footer{
-    text-align: center;
-}
-
-.contenido-footer h4{
-    color: #fff;
-    border-bottom: 3px solid #ff0000;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
-}
-
-.contenido-footer p{
-    color: #fff;
-}
-
-.titulo-final{
-    text-align: center;
-    font-size: 24px;
-    margin: 20px 0 0 0;
-    color: #fff;
-}
-
-.icono-ig{
-    width: 70px;
-    height: 70px;
-    margin-top: 50px;
-}
-
-.p-footer{
-    margin-top: 65px;
-}
