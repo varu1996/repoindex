@@ -1,44 +1,39 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-            crossorigin="anonymous">
-        <link rel="stylesheet" href="css/recetas.css">
-        <title>Potrero Digital</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/recetas.css">
+    <title>Potrero Digital</title>
+</head>
 
 
-    <body>
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand mb-0 h1" href="index.html">Potrero Digital</a>
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="recetas.html">Recetas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html">POTRERO DIGITAL</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav enlaces">
+                    <a class="nav-item nav-link" href="index.html">Inicio</a>
+                    <a class="nav-item nav-link active" href="recetas.html">Recetas<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="contacto.html">Contacto</a>
                 </div>
-            </nav>
-        </header>
+                <button class="switch" id="switch">
+                    <span><i class="fas fa-sun"></i></span>
+                    <span><i class="fas fa-moon"></i></span>
+                </button>
+            </div>
+        </nav>
+    </header>
 
 
-        <main>
+    <main>
+        <div class="sec-side">
             <section>
                 <h2 class="h2-rec">Receta del Omelette relleno con jamón y queso.</h2>
                 <br>
@@ -60,10 +55,10 @@
                         <li>Verter los huevos en un recipiente y batir.</li>
                         <li>Agregar un chorro de leche a la mezcla.</li>
                         <li>Agregar una pizca de nuez moscada.</li>
-                        <li>Agregar un trozo de manteca en la sarténprecalentada y esparcirla.</li>
+                        <li>Agregar un trozo de manteca en la sartén precalentada y esparcirla.</li>
                         <li>Verter en la sartén la preparación previa.</li>
                         <li>Verificar con una espátula los bordes de la preparacion para evitar que se pegue en la sartén.</li>
-                        <li>Agregar el jamón y el queso cuando la preparaciónhaya cuajado.</li>
+                        <li>Agregar el jamón y el queso cuando la preparación haya cuajado.</li>
                         <li>Doblar la preparación a la mitad con cuidado.</li>
                     </ol>
                 </div>
@@ -71,75 +66,81 @@
             </section>
 
             <aside>
-                <div>
+                <div class="img-om">
                     <h3>Imagen del plato.</h3>
                     <br>
                     <figure id="img-hov">
-                        <img src="imagenes/omelette.webp" alt="Omelette">
+                        <img class="omelette" src="imagenes/omelette.webp" alt="Omelette">
                     </figure>
                 </div>
             </aside>
+        </div>    
 
-            <div class="tarjetas">
-                <div class="card">
-                    <img class="card-img-top receta4" src="imagenes/sandwich de omelette.png" alt="Sandwich de omelette">
-                    <div class="card-body">
-                        <h5 class="card-title">Sandwich de Omelette.</h5>
-                        <p class="card-text">Aquí les dejamos esta innovadora receta.</p>
-                        <a href="https://www.chefclub.tv/es-mx/recetas/original/1b45c878-42db-4633-8307-409b21f8868e/sandwich-de-omelette-comer-o-no-comer-esa-es-la-cuesti%C3%B3n-omlet-1609/" class="btn btn-info">Visitar página</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top receta4" src="imagenes/Omelete huitlacoche.jpg" alt="Omelette Huitlacoche">
-                    <div class="card-body">
-                        <h5 class="card-title">Omelette abierto de Huitlacoche.</h5>
-                        <p class="card-text">Receta sabrosa y nutritiva originaria de México.</p>
-                        <a href="https://www.cocinafacil.com.mx/recetas-de-comida/receta/omelette-abierto-de-huitlacoche/" class="btn btn-info">Visitar página</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top receta4" src="imagenes/Omelette langostinos.jpg" alt="Omelette Langostinos">
-                    <div class="card-body">
-                        <h5 class="card-title">Omelette de Langostinos.</h5>
-                        <p class="card-text">Deliciosa receta con mariscos.</p>
-                        <a href="https://www.recetasgratis.net/receta-de-tortilla-de-langostinos-58196.html" class="btn btn-info">Visitar página</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top receta4" src="imagenes/Omelette vegetales.jpg" alt="Omelette Vegetales">
-                    <div class="card-body">
-                        <h5 class="card-title">Omelette de Vegetales.</h5>
-                        <p class="card-text">Receta para una dieta saludable.</p>
-                        <a href="https://www.recetasnestle.com.co/recetas/omelette-claras-vegetales" class="btn btn-info">Visitar página</a>
-                    </div>
+        <div class="tarjetas">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="imagenes/sandwich de omelette.png" alt="Sandwich de omelette">
+                <div class="card-body">
+                    <h5 class="card-title">Sandwich de Omelette.</h5>
+                    <p class="card-text">Aquí les dejamos esta innovadora receta.</p>
+                    <a href="https://www.chefclub.tv/es-mx/recetas/original/1b45c878-42db-4633-8307-409b21f8868e/sandwich-de-omelette-comer-o-no-comer-esa-es-la-cuesti%C3%B3n-omlet-1609/" class="btn btn-primary">Visitar página</a>
                 </div>
             </div>
-
-            <a href="https://api.whatsapp.com/send?phone=2216092012"><img class="icono-wsp" src="./iconos/whatsapp.png"></a>
-        </main>
-
-
-        <footer>
-            <div class="contenedor-footer">
-                <div class="contenido-footer">
-                    <h2>¿Qué receta te gustaría ver?</h2>
-                    <p>Dejanos tu mensaje en la pestaña de <a class="a a-hov" href="contacto.html">Contacto</a>. Contanos que receta quisieras aprender!</p>
-                </div>
-                <div class="contenido-footer">
-                    <h2>Redes Sociales</h2>
-                    <a href="https://www.instagram.com/potrerodigital/"><img class="icono-ig" src="./iconos/instagram.png"></a>
-                </div>
-                <div class="contenido-footer">
-                    <h2>Correo electrónico</h2>
-                    <p class="p-footer">compromisodigital@compromiso.org</p>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="imagenes/Omelete huitlacoche.jpg" alt="Omelette Huitlacoche">
+                <div class="card-body">
+                    <h5 class="card-title">Omelette abierto de Huitlacoche.</h5>
+                    <p class="card-text">Sabrosa receta originaria de México.</p>
+                    <a href="https://www.cocinafacil.com.mx/recetas-de-comida/receta/omelette-abierto-de-huitlacoche/" class="btn btn-primary">Visitar página</a>
                 </div>
             </div>
-            <h2 class="titulo-final">&copy; Valentin Rusconi 2022</h2>
-        </footer>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="imagenes/Omelette langostinos.jpg" alt="Omelette Langostinos">
+                <div class="card-body">
+                    <h5 class="card-title">Omelette de Langostinos.</h5>
+                    <p class="card-text">Deliciosa receta con mariscos.</p>
+                    <a href="https://www.recetasgratis.net/receta-de-tortilla-de-langostinos-58196.html" class="btn btn-primary">Visitar página</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="imagenes/Omelette vegetales.jpg" alt="Omelette Vegetales">
+                <div class="card-body">
+                    <h5 class="card-title">Omelette de Vegetales.</h5>
+                    <p class="card-text">Receta para una dieta saludable.</p>
+                    <a href="https://www.recetasnestle.com.co/recetas/omelette-claras-vegetales" class="btn btn-primary">Visitar página</a>
+                </div>
+            </div>
+        </div>
+
+        <a href="https://api.whatsapp.com/send?phone=2216092012"><img class="icono-wsp" src="./iconos/whatsapp.png"></a>
+    </main>
 
 
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    </body>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="contenido-footer">
+                <h2>¿Qué receta te gustaría ver?</h2>
+                <p>Dejanos tu mensaje en la pestaña de <a class="a a-hov" href="contacto.html">Contacto</a>. Contanos que receta quisieras aprender!<p>
+            </div>
+            <div class="contenido-footer">
+                <h2>Redes Sociales</h2>
+                <a class="a-ig" href="https://www.instagram.com/potrerodigital/"><img class="icono-ig" src="./iconos/instagram.png"></a>
+                <a href="https://api.whatsapp.com/send?phone=2216092012"><img class="icono-wsp2" src="./iconos/whatsapp.png"></a>
+            </div>
+            <div class="contenido-footer">
+                <h2>Correo electrónico</h2>
+                <p>compromisodigital@compromiso.org</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Potrero Digital 2022</h2>
+        <br>
+        <button type="button" id="boton" class="btn btn-info btn-creador" onclick="datos()">Creador</button>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
