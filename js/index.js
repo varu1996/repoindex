@@ -1,7 +1,16 @@
-// Alerta de bienvenida.
+// Chequea modo Claro/Oscuro
+$(document).ready(function () {
+    if (document.body.classList.contains('dark')) {
+        let element = document.getElementById("nav");
+        element.classList.remove("navbar-light");
+        element.classList.add('navbar-dark');
 
-//window.alert("Bienvenido/a a mi sitio web.");
-
+    } else {
+        let element = document.getElementById("nav");
+        element.classList.remove("navbar-dark");
+        element.classList.add('navbar-light');
+    }
+})
 
 // Modo Nocturno.
 
@@ -13,8 +22,16 @@ btnSwitch.addEventListener('click', ()=> {
 
     if(document.body.classList.contains('dark')){
         localStorage.setItem('dark-mode', 'true');
+        let element = document.getElementById("nav");
+        element.classList.remove("navbar-light");
+        element.classList.add('navbar-dark');
+
     }else{
         localStorage.setItem('dark-mode', 'false');
+        let element = document.getElementById("nav");
+        element.classList.remove("navbar-dark");
+        element.classList.add('navbar-light');
+        
     }
 });
 
