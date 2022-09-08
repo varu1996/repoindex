@@ -7,9 +7,18 @@
     <title>Nivel 2 - Back End</title>
 </head>
 <body>
+
     <?php
     
-    $mensaje = "Hola Mundo";
+    echo "Hola Mundo.";
+    
+    ?>
+
+    <hr>
+
+    <?php
+    
+    $mensaje = "Hola Mundo.";
     echo $mensaje;
 
     ?>
@@ -139,5 +148,6 @@
     echo $perimetro;
     
     ?>
+
 </body>
 </html>
