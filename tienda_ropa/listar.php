@@ -24,6 +24,9 @@
             <td>MARCA</td>
             <td>TALLE</td>
             <td>PRECIO</td>
+            <td>IMAGEN</td>
+            <td>EDITAR</td>
+            <td>BORRAR</td>
         </tr>
 
         <?php 
@@ -51,6 +54,9 @@
             <td><?php echo $fila["marca"]; ?></td>
             <td><?php echo $fila["talle"]; ?></td>
             <td><?php echo $fila["precio"]; ?></td>
+            <td><img src="data: image/png; base64, <?php echo base64_encode($fila['imagen']); ?>"></td>
+            <td><a href="modificar.php?id= <?php echo $fila['id']; ?>">Editar</a></td>
+            <td><a href="borrar.php?id= <?php echo $fila['id']; ?>">Borrar</a></td>
         </tr>
 
         <?php } ?>
