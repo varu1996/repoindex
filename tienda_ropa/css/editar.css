@@ -1,0 +1,36 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap'); */
+
+*{
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+body{
+    background: #f1f1f1;
+}
+
+
+/*  ***MAIN***  */
+
+
+main{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+form{
+    width: 45vw;
+}
+
+label{
+    margin-top: 15px;
+}
+
+.botones{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.btn-cancel{
+    margin-left: 20px;
+}
